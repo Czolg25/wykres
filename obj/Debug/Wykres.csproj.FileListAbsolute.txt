@@ -1,0 +1,21 @@
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\bin\Debug\Wykres.exe.config
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\bin\Debug\Wykres.exe
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\bin\Debug\Wykres.pdb
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.csproj.SuggestedBindingRedirects.cache
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.Form1.resources
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.Properties.Resources.resources
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.csproj.GenerateResource.cache
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.exe
+C:\Users\Student\Documents\z pulpitu syf\Dykacz\Wykres\obj\Debug\Wykres.pdb
+C:\Users\Dawid\Desktop\Wykres\bin\Debug\Wykres.exe.config
+C:\Users\Dawid\Desktop\Wykres\bin\Debug\Wykres.exe
+C:\Users\Dawid\Desktop\Wykres\bin\Debug\Wykres.pdb
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.csprojAssemblyReference.cache
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.Form1.resources
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.Properties.Resources.resources
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.csproj.GenerateResource.cache
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.exe
+C:\Users\Dawid\Desktop\Wykres\obj\Debug\Wykres.pdb
