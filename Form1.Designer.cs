@@ -32,9 +32,7 @@
             this.PatternLabel = new System.Windows.Forms.Label();
             this.patternTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.xMinBox = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
-            this.xMaxBox = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.yTextBox = new System.Windows.Forms.TextBox();
@@ -47,8 +45,8 @@
             this.xLabel = new System.Windows.Forms.Label();
             this.drawButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.xMinBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xMaxBox)).BeginInit();
+            this.xMaxBox = new System.Windows.Forms.TextBox();
+            this.xMinBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -86,18 +84,6 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "X min:";
             // 
-            // xMinBox
-            // 
-            this.xMinBox.Location = new System.Drawing.Point(61, 70);
-            this.xMinBox.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.xMinBox.Name = "xMinBox";
-            this.xMinBox.Size = new System.Drawing.Size(157, 20);
-            this.xMinBox.TabIndex = 4;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -106,18 +92,6 @@
             this.label2.Size = new System.Drawing.Size(39, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "X max:";
-            // 
-            // xMaxBox
-            // 
-            this.xMaxBox.Location = new System.Drawing.Point(61, 104);
-            this.xMaxBox.Minimum = new decimal(new int[] {
-            100,
-            0,
-            0,
-            -2147483648});
-            this.xMaxBox.Name = "xMaxBox";
-            this.xMaxBox.Size = new System.Drawing.Size(157, 20);
-            this.xMaxBox.TabIndex = 6;
             // 
             // label3
             // 
@@ -222,11 +196,27 @@
             this.panel2.TabIndex = 19;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
+            // xMaxBox
+            // 
+            this.xMaxBox.Location = new System.Drawing.Point(61, 101);
+            this.xMaxBox.Name = "xMaxBox";
+            this.xMaxBox.Size = new System.Drawing.Size(157, 20);
+            this.xMaxBox.TabIndex = 20;
+            // 
+            // xMinBox
+            // 
+            this.xMinBox.Location = new System.Drawing.Point(61, 72);
+            this.xMinBox.Name = "xMinBox";
+            this.xMinBox.Size = new System.Drawing.Size(157, 20);
+            this.xMinBox.TabIndex = 21;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.xMinBox);
+            this.Controls.Add(this.xMaxBox);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.drawButton);
             this.Controls.Add(this.xLabel);
@@ -239,17 +229,13 @@
             this.Controls.Add(this.yTextBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.xMaxBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.xMinBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.patternTextBox);
             this.Controls.Add(this.PatternLabel);
             this.Controls.Add(this.titleLabel);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.xMinBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xMaxBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,9 +247,7 @@
         private System.Windows.Forms.Label PatternLabel;
         private System.Windows.Forms.TextBox patternTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown xMinBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown xMaxBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox yTextBox;
@@ -276,6 +260,8 @@
         private System.Windows.Forms.Label xLabel;
         private System.Windows.Forms.Button drawButton;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox xMaxBox;
+        private System.Windows.Forms.TextBox xMinBox;
     }
 }
 

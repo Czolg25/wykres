@@ -159,8 +159,10 @@ namespace Wykres
         {
             try
             {
-                xMin = Convert.ToDouble(xMinBox.Value);
-                xMax = Convert.ToDouble(xMaxBox.Value);
+
+               
+                xMin = Convert.ToDouble(xMinBox.Text);
+                xMax = Convert.ToDouble(xMaxBox.Text);
             }
             catch(FormatException exeption)
             {
